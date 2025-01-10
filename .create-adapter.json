@@ -1,0 +1,43 @@
+{
+	"expert": "no",
+	"cli": false,
+	"adapterName": "new-creator",
+	"title": "Test",
+	"description": "",
+	"keywords": "",
+	"authorName": "Samuel Weibel",
+	"authorGithub": "UncleSamSwiss",
+	"authorEmail": "s.weibel@hicon.ch",
+	"features": [
+		"adapter"
+	],
+	"adminFeatures": [],
+	"type": "health",
+	"startMode": "daemon",
+	"connectionType": "cloud",
+	"dataSource": "poll",
+	"connectionIndicator": "no",
+	"adapterSettings": [
+		{
+			"key": "option1",
+			"defaultValue": true,
+			"inputType": "checkbox"
+		},
+		{
+			"key": "option2",
+			"defaultValue": "42",
+			"inputType": "text"
+		}
+	],
+	"language": "TypeScript",
+	"adminUi": "json",
+	"releaseScript": "no",
+	"indentation": "Tab",
+	"quotes": "double",
+	"tools": [
+		"ESLint"
+	],
+	"license": "MIT License",
+	"target": "github",
+	"creatorVersion": "2.5.0"
+}
